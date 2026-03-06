@@ -1,0 +1,282 @@
+const soloDiscographySongLibrary = [
+    {
+        "name": "Bob Dylan",
+        "opts": {
+            "series": "ATMP"
+        },
+        "img": "https://en.wikipedia.org/wiki/Bob_Dylan_(album)#/media/File:Bob_Dylan_-_Bob_Dylan.gif"
+    },
+    {
+        "name": "The Freewheelin' Bob Dylan",
+        "opts": {
+            "series": "ATMP"
+        },
+        "img": "https://en.wikipedia.org/wiki/The_Freewheelin%27_Bob_Dylan#/media/File:Bob_Dylan_-_The_Freewheelin'_Bob_Dylan.jpg"
+    },
+    {
+        "name": "The Times They Are A-Changin'",
+        "opts": {
+            "series": "ATMP"
+        },
+        "img": "https://en.wikipedia.org/wiki/The_Times_They_Are_a-Changin%27_(Bob_Dylan_album)#/media/File:Bob_Dylan_-_The_Times_They_Are_a-Changin'.jpg"
+    },
+    {
+        "name": "Another Side of Bob Dylan",
+        "opts": {
+            "series": "ATMP"
+        },
+        "img": "https://en.wikipedia.org/wiki/Another_Side_of_Bob_Dylan#/media/File:Bob_Dylan_-_Another_Side_of_Bob_Dylan.jpg"
+    },
+    {
+        "name": "Bringing It All Back Home",
+        "opts": {
+            "series": "ATMP"
+        },
+        "img": "https://en.wikipedia.org/wiki/Bringing_It_All_Back_Home#/media/File:Bob_Dylan_-_Bringing_It_All_Back_Home.jpg"
+    },
+    {
+        "name": "Highway 61 Revisited",
+        "opts": {
+            "series": "ATMP"
+        },
+        "img": "https://en.wikipedia.org/wiki/Highway_61_Revisited#/media/File:Bob_Dylan_-_Highway_61_Revisited.jpg"
+    },
+    {
+        "name": "Blonde on Blonde",
+        "opts": {
+            "series": "ATMP"
+        },
+        "img": "https://en.wikipedia.org/wiki/Blonde_on_Blonde#/media/File:Bob_Dylan_-_Blonde_on_Blonde.jpg"
+    },
+    {
+        "name": "John Wesley Harding",
+        "opts": {
+            "series": "ATMP"
+        },
+        "img": "https://en.wikipedia.org/wiki/John_Wesley_Harding#/media/File:Bob_Dylan_-_John_Wesley_Harding.jpg"
+    },
+    {
+        "name": "Nashville Skyline",
+        "opts": {
+            "series": "ATMP"
+        },
+        "img": "https://en.wikipedia.org/wiki/Nashville_Skyline#/media/File:Bob_Dylan_-_Nashville_Skyline.jpg"
+    },
+    {
+        "name": "Self Portrait",
+        "opts": {
+            "series": "ATMP"
+        },
+        "img": "https://en.wikipedia.org/wiki/Self_Portrait_(Bob_Dylan_album)#/media/File:Bob_Dylan_-_Self_Portrait.jpg"
+    },
+    {
+        "name": "New Morning",
+        "opts": {
+            "series": "ATMP"
+        },
+        "img": "https://en.wikipedia.org/wiki/New_Morning#/media/File:Bob_Dylan_-_New_Morning.jpg"
+    },
+    {
+        "name": "Pat Garrett & Billy the Kid",
+        "opts": {
+            "series": "ATMP"
+        },
+        "img": "https://en.wikipedia.org/wiki/Pat_Garrett_%26_Billy_the_Kid_(album)#/media/File:Bob_Dylan_-_Pat_Garrett_&_Billy_the_Kid.jpg"
+    },
+    {
+        "name": "Dylan",
+        "opts": {
+            "series": "ATMP"
+        },
+        "img": "https://en.wikipedia.org/wiki/Dylan_(1973_album)#/media/File:Bob_Dylan_-_Dylan_(1973_album).jpg"
+    },
+    {
+        "name": "Planet Waves",
+        "opts": {
+            "series": "ATMP"
+        },
+        "img": "https://en.wikipedia.org/wiki/Planet_Waves#/media/File:Bob_Dylan_-_Planet_Waves.jpg"
+    },
+    {
+        "name": "Blood on the Tracks",
+        "opts": {
+            "series": "ATMP"
+        },
+        "img": "https://en.wikipedia.org/wiki/Blood_on_the_Tracks#/media/File:Bob_Dylan_-_Blood_on_the_Tracks.jpg"
+    },
+    {
+        "name": "The Basement Tapes",
+        "opts": {
+            "series": "ATMP"
+        },
+        "img": "https://en.wikipedia.org/wiki/The_Basement_Tapes#/media/File:Bob_Dylan_and_The_Band_-_The_Basement_Tapes.jpg"
+    },
+    {
+        "name": "Desire",
+        "opts": {
+            "series": "ATMP"
+        },
+        "img": "https://en.wikipedia.org/wiki/Desire_(Bob_Dylan_album)#/media/File:Bob_Dylan_-_Desire.jpg"
+    },
+    {
+        "name": "Street-Legal",
+        "opts": {
+            "series": "BttE"
+        },
+        "img": "https://en.wikipedia.org/wiki/Street-Legal_(album)#/media/File:Bob_Dylan_-_Street-Legal.jpg"
+    },
+    {
+        "name": "Slow Train Coming",
+        "opts": {
+            "series": "BttE"
+        },
+        "img": "https://en.wikipedia.org/wiki/Slow_Train_Coming#/media/File:Bob_Dylan_-_Slow_Train_Coming.jpg"
+    },
+    {
+        "name": "Saved",
+        "opts": {
+            "series": "BttE"
+        },
+        "img": "https://en.wikipedia.org/wiki/Saved_(Bob_Dylan_album)#/media/File:Bob_Dylan_-_Saved.jpg"
+    },
+    {
+        "name": "Shot of Love",
+        "opts": {
+            "series": "BttE"
+        },
+        "img": "https://en.wikipedia.org/wiki/Shot_of_Love#/media/File:Bob_Dylan_-_Shot_of_Love.jpg"
+    },
+    {
+        "name": "Infidels",
+        "opts": {
+            "series": "BttE"
+        },
+        "img": "https://en.wikipedia.org/wiki/Infidels_(album)#/media/File:Bob_Dylan_-_Infidels.png"
+    },
+    {
+        "name": "Empire Burlesque",
+        "opts": {
+            "series": "BttE"
+        },
+        "img": "https://en.wikipedia.org/wiki/Empire_Burlesque#/media/File:Bob_Dylan_-_Empire_Burlesque.jpg"
+    },
+    {
+        "name": "Knocked Out Loaded",
+        "opts": {
+            "series": "BttE"
+        },
+        "img": "https://en.wikipedia.org/wiki/Knocked_Out_Loaded#/media/File:Bob_Dylan_-_Knocked_Out_Loaded.jpg"
+    },
+    {
+        "name": "Down in the Groove",
+        "opts": {
+            "series": "BttE"
+        },
+        "img": "https://en.wikipedia.org/wiki/Down_in_the_Groove#/media/File:Bob_Dylan_-_Down_in_the_Groove.jpg"
+    },
+    {
+        "name": "Oh Mercy",
+        "opts": {
+            "series": "BttE"
+        },
+        "img": "https://en.wikipedia.org/wiki/Oh_Mercy#/media/File:Bob_Dylan_-_Oh_Mercy.jpg"
+    },
+    {
+        "name": "Under the Red Sky",
+        "opts": {
+            "series": "BttE"
+        },
+        "img": "https://en.wikipedia.org/wiki/Under_the_Red_Sky#/media/File:Bob_Dylan_-_Under_the_Red_Sky.jpg"
+    },
+    {
+        "name": "Good as I Been to You",
+        "opts": {
+            "series": "BttE"
+        },
+        "img": "https://en.wikipedia.org/wiki/Good_as_I_Been_to_You#/media/File:Bob_Dylan_-_Good_as_I_Been_to_You.jpg"
+    },
+    {
+        "name": "World Gone Wrong",
+        "opts": {
+            "series": "BttE"
+        },
+        "img": "https://en.wikipedia.org/wiki/World_Gone_Wrong#/media/File:Bob_Dylan_-_World_Gone_Wrong.jpg"
+    },
+    {
+        "name": "Time Out of Mind",
+        "opts": {
+            "series": "BttE"
+        },
+        "img": "https://en.wikipedia.org/wiki/Time_Out_of_Mind_(Bob_Dylan_album)#/media/File:Bob_Dylan_-_Time_Out_of_Mind.jpg"
+    },
+    {
+        "name": "Love and Theft",
+        "opts": {
+            "series": "BB"
+        },
+        "img": "https://en.wikipedia.org/wiki/Love_and_Theft_(Bob_Dylan_album)#/media/File:Bob_Dylan_-_Love_and_Theft.jpg"
+    },
+    {
+        "name": "Modern Times",
+        "opts": {
+            "series": "BB"
+        },
+        "img": "https://en.wikipedia.org/wiki/Modern_Times_(Bob_Dylan_album)#/media/File:Bob_Dylan_-_Modern_Times.jpg"
+    },
+    {
+        "name": "Together Through Life",
+        "opts": {
+            "series": "BB"
+        },
+        "img": "https://en.wikipedia.org/wiki/Together_Through_Life#/media/File:Bob_Dylan_-_Together_Through_Life.jpg"
+    },
+    {
+        "name": "Christmas in the Heart",
+        "opts": {
+            "series": "BB"
+        },
+        "img": "https://en.wikipedia.org/wiki/Christmas_in_the_Heart#/media/File:Bob_Dylan_-_Christmas_in_the_Heart.jpg"
+    },
+    {
+        "name": "Tempest",
+        "opts": {
+            "series": "BB"
+        },
+        "img": "https://en.wikipedia.org/wiki/Tempest_(Bob_Dylan_album)#/media/File:Bob_Dylan_-_Tempest.jpg"
+    },
+    {
+        "name": "Shadows in the Night",
+        "opts": {
+            "series": "BB"
+        },
+        "img": "https://en.wikipedia.org/wiki/Shadows_in_the_Night#/media/File:Bob_Dylan_-_Shadows_in_the_Night.jpg"
+    },
+    {
+        "name": "Fallen Angels",
+        "opts": {
+            "series": "BB"
+        },
+        "img": "https://en.wikipedia.org/wiki/Fallen_Angels_(Bob_Dylan_album)#/media/File:Bob_Dylan_-_Fallen_Angels.jpg"
+    },
+    {
+        "name": "Triplicate",
+        "opts": {
+            "series": "BB"
+        },
+        "img": "https://en.wikipedia.org/wiki/Triplicate_(Bob_Dylan_album)#/media/File:Bob_Dylan_-_Triplicate_(album_cover).jpeg"
+    },
+    {
+        "name": "Rough and Rowdy Ways",
+        "opts": {
+            "series": "BB"
+        },
+        "img": "https://en.wikipedia.org/wiki/Rough_and_Rowdy_Ways#/media/File:Bob_Dylan_-_Rough_and_Rowdy_Ways.png"
+    },
+    {
+        "name": "Shadow Kingdom",
+        "opts": {
+            "series": "BB"
+        },
+        "img": "https://en.wikipedia.org/wiki/Shadow_Kingdom#/media/File:Shadow_Kingdom_album_cover.jpg"
+    }
+  ];
